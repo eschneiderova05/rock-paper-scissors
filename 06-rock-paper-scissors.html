@@ -6,7 +6,7 @@
   <body>
     
     <p>
-      Rock Paper Scissors
+      Kameň papier nožnice
     </p>
     
     <button onclick="
@@ -15,25 +15,25 @@
       let computerMove = '';
 
       if (randomNumber >= 0  && randomNumber < 1 / 3) {
-        computerMove = 'rock';
+        computerMove = 'kameň';
       } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
-        computerMove = 'paper';
+        computerMove = 'papier';
       } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
-        computerMove = 'scissors';
+        computerMove = 'nožnice';
       }
 
       let result = '';
       
-      if (computerMove === 'rock') {
-        result = 'Tie.';
-      } else if (computerMove === 'paper') {
-        result = 'You lose.';
-      } else if (computerMove === 'scissors') {
-        result = 'You win.';
+      if (computerMove === 'kameň') {
+        result = 'Remíza.';
+      } else if (computerMove === 'papier') {
+        result = 'Prehral/a si.';
+      } else if (computerMove === 'nožnice') {
+        result = 'Vyhral/a si.';
       }
 
-      alert(`You picked rock. Computer picked ${computerMove}. ${result}`);
-    ">Rock</button>
+      alert(`Vybral/a si si kameň. Počítač si vybral ${computerMove}. ${result}`);
+    ">Kameň</button>
     
     <button onclick="
       const randomNumber = Math.random();
@@ -41,25 +41,25 @@
       let computerMove = '';
 
       if (randomNumber >= 0  && randomNumber < 1 / 3) {
-        computerMove = 'rock';
+        computerMove = 'kameň';
       } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
-        computerMove = 'paper';
+        computerMove = 'papier';
       } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
-        computerMove = 'scissors';
+        computerMove = 'nožnice';
       }
 
       let result = '';
       
-      if (computerMove === 'rock') {
-        result = 'You win.';
-      } else if (computerMove === 'paper') {
-        result = 'Tie.';
+      if (computerMove === 'kameň') {
+        result = 'Vyhral/a si.';
+      } else if (computerMove === 'papier') {
+        result = 'Remíza.';
       } else if (computerMove === 'scissors') {
-        result = 'You lose.';
+        result = 'Prehral/a si.';
       }
 
-      alert(`You picked paper. Computer picked ${computerMove}. ${result}`);
-    ">Paper</button>
+      alert(`Vybral/a si si papier. Počítač si vybral ${computerMove}. ${result}`);
+    ">Papier</button>
     
     <button onclick="
       const randomNumber = Math.random();
@@ -67,25 +67,25 @@
       let computerMove = '';
 
       if (randomNumber >= 0  && randomNumber < 1 / 3) {
-        computerMove = 'rock';
+        computerMove = 'kameň';
       } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
-        computerMove = 'paper';
+        computerMove = 'papier';
       } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
-        computerMove = 'scissors';
+        computerMove = 'nožnice';
       }
 
       let result = '';
       
-      if (computerMove === 'rock') {
-        result = 'You lose.';
-      } else if (computerMove === 'paper') {
-        result = 'You win.';
-      } else if (computerMove === 'scissors') {
-        result = 'Tie.';
+      if (computerMove === 'kameň') {
+        result = 'Prehral/a si.';
+      } else if (computerMove === 'papier') {
+        result = 'Vyhral/a si.';
+      } else if (computerMove === 'nožnice') {
+        result = 'Remíza.';
       }
 
-      alert(`You picked scissors. Computer picked ${computerMove}. ${result}`);
-    ">Scissors</button>
+      alert(`Vybral/a si si nožnice. Počítač si vybral ${computerMove}. ${result}`);
+    ">Nožnice</button>
     
     <script>
        
